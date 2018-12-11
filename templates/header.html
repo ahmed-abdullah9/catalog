@@ -1,0 +1,20 @@
+<div class="row top-menu">
+	<div class="col-md-6">
+		<a href="{{url_for('showCategory')}}">
+			<span class="glyphicon glyphicon-home" aria-hidden="true"></span>Show All Catalogs
+		</a>
+	</div>
+	<div class="col-md-6 text-right">
+		{% if not session['logged_in'] %}
+		<a href="{{url_for('showLogin')}}">
+			<span class="glyphicon glyphicon-user" aria-hidden="true"></span>login
+		</a>
+		{% endif %}
+		{% if session['logged_in'] %}
+		<a href="{{url_for('gdisconnect')}}">
+			<span class="glyphicon glyphicon-user" aria-hidden="true"></span>logout
+		</a>
+		{% endif %}
+	</div>
+
+</div>
