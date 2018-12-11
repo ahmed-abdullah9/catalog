@@ -31,20 +31,20 @@ category1 = Category(user_id=1, name="Soccer")
 session.add(category1)
 session.commit()
 
-item1 = Item(user_id=1, name="Veggie", description="Juicy grilled veggie patty with tomato mayo and lettuce"
+item1 = Item(user_id=1, name="Two Shinguards", description="Juicy grilled veggie patty with tomato mayo and lettuce"
                 , category=category1)
 
 session.add(item1)
 session.commit()
 
 
-item2 = Item(user_id=1, name="French Fries", description="with garlic and parmesan",
+item2 = Item(user_id=1, name="Shinguards", description="with garlic and parmesan",
                         category=category1)
 
 session.add(item2)
 session.commit()
 
-menuItem2 = Item(user_id=1, name="Chicken Burger", description="Juicy grilled chicken patty with tomato mayo and lettuce",
+menuItem2 = Item(user_id=1, name="jersey", description="Juicy grilled chicken patty with tomato mayo and lettuce",
                         category=category1)
 
 
@@ -56,20 +56,20 @@ category2 = Category(user_id=1, name="Football")
 session.add(category2)
 session.commit()
 
-item1 = Item(user_id=1, name="Veggie", description="Juicy grilled veggie patty with tomato mayo and lettuce"
+item1 = Item(user_id=1, name="Stick", description="Juicy grilled veggie patty with tomato mayo and lettuce"
                 , category=category2)
 
 session.add(item1)
 session.commit()
 
 
-item2 = Item(user_id=1, name="French Fries", description="with garlic and parmesan",
+item2 = Item(user_id=1, name="Goggles", description="with garlic and parmesan",
                         category=category2)
 
 session.add(item2)
 session.commit()
 
-menuItem2 = Item(user_id=1, name="Chicken Burger", description="Juicy grilled chicken patty with tomato mayo and lettuce",
+menuItem2 = Item(user_id=1, name="Bat", description="Juicy grilled chicken patty with tomato mayo and lettuce",
                         category=category2)
 
 session.add(menuItem2)
@@ -87,20 +87,20 @@ category1 = Category(user_id=2, name="Basketball")
 session.add(category1)
 session.commit()
 
-item1 = Item(user_id=2, name="Veggie", description="Juicy grilled veggie patty with tomato mayo and lettuce"
+item1 = Item(user_id=2, name="Bat", description="Juicy grilled veggie patty with tomato mayo and lettuce"
                 , category=category1)
 
 session.add(item1)
 session.commit()
 
 
-item2 = Item(user_id=2, name="French Fries", description="with garlic and parmesan",
+item2 = Item(user_id=2, name="Random", description="with garlic and parmesan",
                         category=category1)
 
 session.add(item2)
 session.commit()
 
-menuItem2 = Item(user_id=2, name="Chicken Burger", description="Juicy grilled chicken patty with tomato mayo and lettuce",
+menuItem2 = Item(user_id=2, name="Frisbes", description="Juicy grilled chicken patty with tomato mayo and lettuce",
                         category=category1)
 
 
@@ -112,20 +112,20 @@ category2 = Category(user_id=2, name="Hockey")
 session.add(category2)
 session.commit()
 
-item1 = Item(user_id=2, name="Veggie", description="Juicy grilled veggie patty with tomato mayo and lettuce"
+item1 = Item(user_id=2, name="Stick", description="Juicy grilled veggie patty with tomato mayo and lettuce"
                 , category=category2)
 
 session.add(item1)
 session.commit()
 
 
-item2 = Item(user_id=2, name="French Fries", description="with garlic and parmesan",
+item2 = Item(user_id=2, name="SnowBord", description="with garlic and parmesan",
                         category=category2)
 
 session.add(item2)
 session.commit()
 
-menuItem2 = Item(user_id=2, name="Chicken Burger", description="Juicy grilled chicken patty with tomato mayo and lettuce",
+menuItem2 = Item(user_id=2, name="Bat", description="Juicy grilled chicken patty with tomato mayo and lettuce",
                         category=category2)
 
 session.add(menuItem2)
