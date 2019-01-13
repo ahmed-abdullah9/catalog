@@ -16,12 +16,12 @@ from flask import (
 app = Flask(__name__)
 
 CLIENT_ID = json.loads(
-    open('client_secrets.json', 'r').read())['web']['client_id']
+    open('////var/www/html/Catalog/client_secrets.json', 'r').read())['web']['client_id']
 APPLICATION_NAME = "Web client 1"
 
 
 # Connect to Database and create database session
-engine = create_engine('sqlite:///Category.db?check_same_thread=False')
+engine = create_engine('sqlite:////var/www/html/Catalog/Category.db?check_same_thread=False')
 Base.metadata.bind = engine
 
 DBSession = sessionmaker(bind=engine)
